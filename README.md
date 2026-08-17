@@ -5,7 +5,7 @@ Built to fine-tune a pretrained CNN backbone on Apple Silicon (MPS), with
 checkpointing after every epoch so interruptions never cost more than the
 current epoch's progress.
 
-## 1. Environment setup (MacBook M2)
+## 1. Environment setup
 
 ```bash
 cd ai-image-detector
