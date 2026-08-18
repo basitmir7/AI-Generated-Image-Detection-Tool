@@ -1,0 +1,16 @@
+# Ignore ML datasets and images
+data/
+
+# macOS
+.DS_Store
+
+# Python virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Model checkpoints
+src/checkpoints/
