@@ -26,7 +26,7 @@ from dataset import IMAGENET_MEAN, IMAGENET_STD
 
 CHECKPOINT_PATH = "checkpoints/best.pt"
 BACKBONE = "resnet50"
-IMAGE_SIZE = 224
+IMAGE_SIZE = 128
 
 _device = get_device()
 _model = None

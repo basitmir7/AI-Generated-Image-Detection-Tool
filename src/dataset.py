@@ -76,7 +76,7 @@ class RealFakeImageDataset(Dataset):
                 # resizing artifacts. Training with these makes the model
                 # rely less on generator-specific noise fingerprints and
                 # more on genuine visual signal.
-                A.ImageCompression(quality_lower=60, quality_upper=100, p=0.3),
+                A.ImageCompression(quality_range=(60, 100), p=0.3),
                 A.GaussianBlur(blur_limit=(3, 5), p=0.15),
                 A.RandomBrightnessContrast(p=0.2),
                 A.Normalize(mean=IMAGENET_MEAN, std=IMAGENET_STD),
